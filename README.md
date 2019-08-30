@@ -22,15 +22,15 @@ Visualize AWS Config Compliance information in Dashoard using AWS Elastic Search
 
 1. Python v3.7
 2. Terraform v0.11.14
-3. AWS Account (With Admin Access)
+3. AWS Account
+4. IAM User With Admin Access
 
 
 ```bash
 git clone git@github.com:nitinda/terraform_aws_config_on_elk.git
-cd terraform_aws_config_on_elk/layer
-terraform init
-terraform plan
-terrafomr apply --auto-approve
+cd terraform_aws_config_on_elk
+make plan
+make apply
 ```
 
 

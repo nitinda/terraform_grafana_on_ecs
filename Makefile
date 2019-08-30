@@ -12,35 +12,35 @@
 
 first-run:
 	@echo "initialize remote state file"
-	cd layers/$(LAYER) && \
+	cd layer && \
 	terraform init
 
 init:
 	@echo "initialize remote state file"
-	cd layers/$(LAYER) && \
+	cd layer && \
 	terraform init
 
 validate: init
 	@echo "running terraform validate"
-	cd layers/$(LAYER) && \
+	cd layer && \
 	terraform validate -no-color
 
 plan: validate
 	@echo "running terraform plan"
-	cd layers/$(LAYER) && \
+	cd layer && \
 	terraform plan -no-color
 
 apply: plan
 	@echo "running terraform apply"
-	cd layers/$(LAYER) && \
+	cd layer && \
 	terraform apply -auto-approve -no-color
 
 plan-destroy: validate
 	@echo "running terraform plan -destroy"
-	cd layers/$(LAYER) && \
+	cd layer && \
 	terraform plan -destroy -no-color
 
 destroy: init
 	@echo "running terraform destroy"
-	cd layers/$(LAYER) && \
+	cd layer && \
 	terraform destroy -force -no-color
