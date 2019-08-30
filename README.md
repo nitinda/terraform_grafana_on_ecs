@@ -55,6 +55,8 @@ make apply
 You can destroy this cluster entirely by running:
 
 ```bash
-terraform plan -destroy
-terraform destroy --force --auto-approve
+git clone git@github.com:nitinda/terraform_aws_config_on_elk.git
+cd terraform_aws_config_on_elk
+make plan
+make destroy
 ```
