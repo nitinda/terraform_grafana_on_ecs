@@ -45,7 +45,7 @@ make apply
 
 ## Diagram
 
-![Diagram](./images/AWSConfig-Kibanaaaa.png)
+![Diagram](./images/AWS-ECS-Grafana.png)
 
 
 ----
