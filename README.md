@@ -37,8 +37,8 @@ make apply
 ## Manual Steps post deployment (Optional)
 
 ```
-- Deployed Lambda function (i.e. terraform-demo-lambda-wiringfunction) needs to be executed before accessing the kibana
-    - Create test evnet, this function will create Cognito user (i.e. - kibana default password : Abcd1234!)
+- None
+
 ```
 
 ----
