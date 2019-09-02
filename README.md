@@ -27,8 +27,8 @@ Visualize AWS Config Compliance information in Dashoard using AWS Elastic Search
 
 
 ```bash
-git clone git@github.com:nitinda/terraform_aws_config_on_elk.git
-cd terraform_aws_config_on_elk
+git clone git@github.com:nitinda/terraform_grafana_on_ecs.git
+cd terraform_grafana_on_ecs
 make plan
 make apply
 ```
@@ -55,8 +55,8 @@ make apply
 You can destroy this cluster entirely by running:
 
 ```bash
-git clone git@github.com:nitinda/terraform_aws_config_on_elk.git
-cd terraform_aws_config_on_elk
+git clone git@github.com:nitinda/terraform_grafana_on_ecs.git
+cd terraform_grafana_on_ecs
 make plan
 make destroy
 ```
