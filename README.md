@@ -1,6 +1,6 @@
-# AWS Config Compliance information in Dashoard using AWS Elastic Search and Kibana (Work in progress)
+# Grafana on AWS ECS with Amazon Aurora Serverless database for persistent storage.
 
-Visualize AWS Config Compliance information in Dashoard using AWS Elastic Search and Kibana.
+Deloying Grafan container service, on AWS ECS with high availability. Amazon Aurora Serverless database for storing dashboard, users, and other persistent data.
 
 
 ## What resources are created
