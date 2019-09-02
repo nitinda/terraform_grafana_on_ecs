@@ -1,6 +1,6 @@
 # Grafana on AWS ECS with Amazon Aurora Serverless database for persistent storage.
 
-Deloying Grafan container service, on AWS ECS with high availability. Amazon Aurora Serverless database for storing dashboard, users, and other persistent data.
+Deploying Grafana container service, on AWS ECS with high availability. Amazon Aurora Serverless database for storing dashboard, users, and other persistent data.
 
 
 ## What resources are created
